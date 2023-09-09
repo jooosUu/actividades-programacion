@@ -1,0 +1,90 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    background-image: url('https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/379720/44c86fa9c834a58d389c7fb22ff492fdec202125.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .header {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .profile-picture {
+    width: 150px; 
+    height: 150px; 
+    border: 5px solid #2d2d2d;
+  }
+  
+  .pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pet img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .pet p {
+    margin-top: 10px;
+  }
+  
+  .about, .games, .friends, .pets, .hobbies, .social {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .friend img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000; 
+  }
+  
